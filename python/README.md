@@ -1,0 +1,1 @@
+## [dataType(number, string)](https://github.com/kps990515/AI/tree/main/python/1.%20dataType(number%2C%20string))
