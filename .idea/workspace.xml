@@ -5,37 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="419e1788-7a72-459a-b162-d526874dbf1e" name="Changes" comment="df">
-      <change afterPath="$PROJECT_DIR$/LinearRegression/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinearRegression/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vector/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vector/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vector/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculus/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculus/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculus/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculus/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -99,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742124927917</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="df">
+      <option name="closed" value="true" />
+      <created>1742131035330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742131035330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
