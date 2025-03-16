@@ -1,4 +1,6 @@
 # AI
 
 ## [Python](https://github.com/kps990515/AI/tree/main/python)
-## [Python](https://github.com/kps990515/AI/tree/main/Numpy)
+## [Numpy](https://github.com/kps990515/AI/tree/main/Numpy)
+## [Pandas](https://github.com/kps990515/AI/tree/main/Pandas)
+## [Pytorch](https://github.com/kps990515/AI/tree/main/Pytorch)
