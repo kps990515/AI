@@ -25,12 +25,16 @@
 import torch
 
 # 1차원 텐서
+# 1차원 텐서(벡터)를 생성
 x = torch.tensor([1., 2., 3.])
 
 # 2차원 텐서 (행렬)
+# 텐서 y는 2개의 행과 2개의 열을 가지며, shape는 [2, 2]입니다. 행렬의 첫 번째 행은 [1.0, 2.0], 두 번째 행은 [3.0, 4.0]
 y = torch.tensor([[1., 2.], [3., 4.]])
 
 # 차원 추가
+# unsqueeze: 텐서의 특정 위치(0)에 크기가 1인 차원을 추가하는 메서드
+# y_expanded : tensor([[1., 2., 3.]])
 y_expanded = x.unsqueeze(0)  # torch.Size([1, 3])
 ```
 
@@ -40,8 +44,12 @@ y_expanded = x.unsqueeze(0)  # torch.Size([1, 3])
 
 #### 예시 코드
 ```python
+# requires_grad=True : 텐서의 연산 기록을 자동으로 추적하여, 나중에 역전파(backward) 과정을 통해 미분(gradient)을 계산할 수 있도록 하는 설정
 x = torch.tensor([2.0, 3.0], requires_grad=True)
 y = x[0]**2 + x[1]**2  # y = x0^2 + x1^2
+
+# 자동 미분을 통해 y를 x에 대해 미분한 결과를 계산
+# 이때, 각 변수에 대한 기울기(gradient)가 x.grad에 저장
 y.backward()
 
 print(x.grad)  # 출력: tensor([4., 6.])
@@ -49,33 +57,43 @@ print(x.grad)  # 출력: tensor([4., 6.])
 
 ### PyTorch로 딥러닝 맛보기 (간단한 선형회귀)
 ```python
-import torch
-import torch.nn as nn
-import torch.optim as optim
-
-# 데이터 준비
+# 1. 데이터 준비
+# 입력데이터
 x_train = torch.tensor([[1.], [2.], [3.], [4.]])
+# 목표데이터
 y_train = torch.tensor([[3.], [5.], [7.], [9.]])
 
-# 모델 정의
+# 2. 모델 정의
+# nn.Module: 모든 PyTorch 모델의 기본 클래스
 class LinearRegressionModel(nn.Module):
     def __init__(self):
         super().__init__()
         self.linear = nn.Linear(1, 1)
+# 입력 특성(feature) 수가 1, 출력 특성 수가 1인 간단한 선형 계층으로, 수학적으로는 y=Wx+b 형태의 연산을 수행
 
+# 3. 모델에 입력 데이터를 넣었을 때 어떻게 계산을 수행할지 정의하는 함수
     def forward(self, x):
         return self.linear(x)
 
 model = LinearRegressionModel()
+# nn.MSELoss(): 예측 값과 실제 값 사이의 차이를 제곱하여 평균을 내는 손실 함수
 criterion = nn.MSELoss()
 optimizer = optim.SGD(model.parameters(), lr=0.01)
+# optim.SGD: Stochastic Gradient Descent (SGD) 옵티마이저를 사용하여 모델의 파라미터를 업데이트
+# model.parameters()를 통해 모델의 학습 가능한 파라미터들을 전달하며, lr=0.01은 학습률(learning rate)을 의미
 
-# 학습 루프
-for epoch in range(100):
-    pred = model(x_train)
+# 4. 학습 루프
+for epoch in range(100): # 총 100번의 학습(에포크, epoch)을 수행
+    # 모델의 forward 메서드가 호출되어, 현재 모델 파라미터로 x_train 데이터를 입력받아 예측 값을 계산
+    pred = model(x_train) 
+    # 예측 값 pred와 실제 값 y_train 사이의 오차(손실)를 계산
     loss = criterion(pred, y_train)
+    # 매 학습 단계마다 기울기를 0으로 만들어 누적되지 않도록 합니다.
     optimizer.zero_grad()
+    # 역전파(backpropagation)를 통해 손실 함수의 결과를 모델 파라미터에 대해 미분(기울기 계산)합니다.
     loss.backward()
+    # 계산된 기울기를 바탕으로 모델의 파라미터를 업데이트
+    # 이 과정에서 학습률(lr)에 따라 파라미터가 조정되며, 손실이 줄어들도록 최적화
     optimizer.step()
 ```
 

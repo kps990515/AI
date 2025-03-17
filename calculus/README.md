@@ -5,7 +5,7 @@
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
 
-# [머신러닝 기초 수학 개념 정리](https://academia.spartacodingclub.kr/classroom)
+# [머신러닝 기초 수학 개념 정리](https://teamsparta.notion.site/1-1b22dc3ef51480ff9ec3c9678c827b20)
 
 ## 1. 데이터 표현 형태
 
