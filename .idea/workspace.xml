@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="419e1788-7a72-459a-b162-d526874dbf1e" name="Changes" comment="df" />
+    <list default="true" id="419e1788-7a72-459a-b162-d526874dbf1e" name="Changes" comment="df">
+      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MachineLearning/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python&amp;Library/Numpy/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python&amp;Library/Numpy/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,19 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/sideProject/AI&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/sideProject/AI/MachineLearning/chapter1"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sideProject\AI\Math" />
+      <recent name="D:\sideProject\AI\python&amp;Library" />
       <recent name="D:\sideProject\AI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sideProject\AI\Math" />
+      <recent name="D:\sideProject\AI\python&amp;Library" />
       <recent name="D:\sideProject\AI\MachineLearning" />
     </key>
   </component>
@@ -100,7 +109,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742217055411</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="df">
+      <option name="closed" value="true" />
+      <created>1742732978549</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742732978549</updated>
+    </task>
+    <task id="LOCAL-00008" summary="df">
+      <option name="closed" value="true" />
+      <created>1742733063517</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742733063517</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
