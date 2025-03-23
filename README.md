@@ -1,8 +1,5 @@
 # AI
 
-
-## [Matrix](https://github.com/kps990515/AI/tree/main/Matrix)
-## [Vector](https://github.com/kps990515/AI/tree/main/Vector)
-## [미적분](https://github.com/kps990515/AI/tree/main/calculus)
-## [선형회귀](https://github.com/kps990515/AI/tree/main/LinearRegression)
+## [Python 및 라이브러리](https://github.com/kps990515/AI/tree/main/python%26Library)
+## [수학](https://github.com/kps990515/AI/tree/main/Math)
 ## [머신러닝](https://github.com/kps990515/AI/tree/main/MachineLearning)
