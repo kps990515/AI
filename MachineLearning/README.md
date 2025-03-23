@@ -1,2 +1,5 @@
-## [머신러닝 개요와 구성요소](https://teamsparta.notion.site/1-d9d6bcd31a5447488de4cba7b9b8d091)
-
+## [머신러닝 개요와 구성요소](https://github.com/kps990515/AI/tree/main/MachineLearning/chapter1)
+## [데이터 전처리](https://github.com/kps990515/AI/tree/main/MachineLearning/chapter2)
+## [지도학습 기법](https://github.com/kps990515/AI/tree/main/MachineLearning/chapter3)
+## [비지도학습 기법](https://github.com/kps990515/AI/tree/main/MachineLearning/chapter4)
+## [앙상블 기법](https://github.com/kps990515/AI/tree/main/MachineLearning/chapter5)
