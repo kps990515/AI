@@ -5,30 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="419e1788-7a72-459a-b162-d526874dbf1e" name="Changes" comment="df">
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter3/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter4/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter4/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter4/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter4/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter4/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning/chapter5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Math/basic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/chapter1/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearning/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Math/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Math/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python&amp;Library/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/python&amp;Library/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +54,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/sideProject/AI/MachineLearning"
+    "last_opened_file_path": "D:/sideProject/AI/DeepLearning"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sideProject\AI\DeepLearning" />
       <recent name="D:\sideProject\AI\MachineLearning" />
       <recent name="D:\sideProject\AI\Math" />
       <recent name="D:\sideProject\AI\MachineLearning\chapter1" />
       <recent name="D:\sideProject\AI\python&amp;Library" />
-      <recent name="D:\sideProject\AI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\sideProject\AI\Math" />
@@ -162,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742733590910</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="df">
+      <option name="closed" value="true" />
+      <created>1742737530255</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1742737530255</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
