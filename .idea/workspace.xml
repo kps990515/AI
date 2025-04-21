@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="419e1788-7a72-459a-b162-d526874dbf1e" name="Changes" comment="df">
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter3/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter4/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter4/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter5/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter5/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter5/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter5/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter6/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter6/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter6/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter6/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter6/img_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lecture/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/README.md" afterDir="false" />
     </list>
@@ -54,14 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/sideProject/AI/Lecture"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/sideProject/AI/Lecture&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\sideProject\AI\Lecture" />
