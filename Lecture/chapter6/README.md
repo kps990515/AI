@@ -25,6 +25,8 @@ print(output.tokens)
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
 ![img_4.png](img_4.png)
+![img_10.png](img_10.png)
+![img_11.png](img_11.png)
 ```python
 # -----------------------------------------------------------
 # 1) 라이브러리 임포트
@@ -97,6 +99,8 @@ out.shape
 ```
 ![img_6.png](img_6.png)
 ![img_7.png](img_7.png)
+![img_12.png](img_12.png)
+![img_13.png](img_13.png)
 ```python
 # -----------------------------------------------------------
 # 1) 라이브러리 임포트
