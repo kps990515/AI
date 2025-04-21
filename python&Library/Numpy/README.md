@@ -120,9 +120,9 @@ print(arr_reshaped)
 ### 2.2 차원 확장
 `np.newaxis` 또는 `None`을 사용하여 차원을 추가합니다.
 ```python
-arr = np.array([[1, 2, 3], [4, 5, 6]])
-arr_expanded = arr[:, None]
-print(arr_expanded.shape)
+arr = np.array([1, 2, 3], [4, 5, 6]) // (2,3)
+arr_expanded = arr[:, None] // : 모든행에, None: 새로운 차원 추가
+print(arr_expanded.shape) // (2,1,3)
 ```
 
 ### 2.3 concatenate 및 stack
@@ -131,23 +131,23 @@ print(arr_expanded.shape)
 arr1 = np.zeros((2, 3, 5))
 arr2 = np.zeros((2, 1, 5))
 arr3 = np.zeros((2, 4, 5))
-arr_concat = np.concatenate([arr1, arr2, arr3], axis=1)
-print(arr.shape)
+arr_concat = np.concatenate([arr1, arr2, arr3], axis=1) // 두번째 축을 기준으로 합쳐짐
+print(arr.shape) // 2,8,5
 ```
 
 - `np.stack`: 새로운 축을 만들어 배열을 쌓습니다.
 ```python
 arr1 = np.zeros((2, 3))
-arr_stacked = np.stack([arr1, arr1, arr1], axis=0)
-print(arr_stacked.shape)
+arr_stacked = np.stack([arr1, arr1, arr1], axis=0) //맨앞에 새로운 차원을 넣는데 arr1을 3번 넣음
+print(arr_stacked.shape) // (3,2,3) 3:axis=0 3개, 2: 기존행, 3: 기존열
 ```
 
 ### 2.4 transpose 및 flatten
 - `transpose`: 배열의 차원을 전치합니다.
 ```python
 arr = np.random.rand(2, 3, 4)
-arr_transposed = arr.transpose(1, 0, 2)
-print(arr_transposed.shape)
+arr_transposed = arr.transpose(1, 0, 2) // 0,1축을 바꾸고 2축은 그대로 유지
+print(arr_transposed.shape) // (3,2,4)
 ```
 
 - `flatten`: 1차원으로 만듭니다.
