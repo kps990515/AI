@@ -4,4 +4,5 @@
 ## [1주차과제](https://github.com/kps990515/AI/tree/main/Lecture/chapter4)
 ## [1주차과제2](https://github.com/kps990515/AI/tree/main/Lecture/chapter5)
 ## [NLP(Natural Language Processing, 자연어 처리)](https://github.com/kps990515/AI/tree/main/Lecture/chapter6)
+## [RNN(Recurrent Neural Network, 순환 신경망)](https://github.com/kps990515/AI/tree/main/Lecture/chapter7)
 
