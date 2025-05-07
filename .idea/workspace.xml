@@ -5,34 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="419e1788-7a72-459a-b162-d526874dbf1e" name="Changes" comment="df">
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/chapter7/img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter8/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter8/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter8/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter8/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/chapter8/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lecture/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/README.md" afterDir="false" />
     </list>
@@ -209,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745241297047</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="df">
+      <option name="closed" value="true" />
+      <created>1745243280572</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1745243280572</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

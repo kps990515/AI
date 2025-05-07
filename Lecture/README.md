@@ -1,3 +1,4 @@
+## [요약](https://github.com/kps990515/AI/tree/main/Lecture/summary)
 ## [선형회귀](https://github.com/kps990515/AI/tree/main/Lecture/chapter1)
 ## [Multi-layer Perceptron](https://github.com/kps990515/AI/tree/main/Lecture/chapter2)
 ## [Deep Learning Techniques](https://github.com/kps990515/AI/tree/main/Lecture/chapter3)
@@ -5,4 +6,5 @@
 ## [1주차과제2](https://github.com/kps990515/AI/tree/main/Lecture/chapter5)
 ## [NLP(Natural Language Processing, 자연어 처리)](https://github.com/kps990515/AI/tree/main/Lecture/chapter6)
 ## [RNN(Recurrent Neural Network, 순환 신경망)](https://github.com/kps990515/AI/tree/main/Lecture/chapter7)
+## [MCP(Model Context Protocol)](https://github.com/kps990515/AI/tree/main/Lecture/chapter8)
 
