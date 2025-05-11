@@ -7,4 +7,5 @@
 ## [NLP(Natural Language Processing, 자연어 처리)](https://github.com/kps990515/AI/tree/main/Lecture/chapter6)
 ## [RNN(Recurrent Neural Network, 순환 신경망)](https://github.com/kps990515/AI/tree/main/Lecture/chapter7)
 ## [MCP(Model Context Protocol)](https://github.com/kps990515/AI/tree/main/Lecture/chapter8)
+## [LLM원리와 작동방식](https://github.com/kps990515/AI/tree/main/Lecture/chapter9)
 
