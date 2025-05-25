@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="419e1788-7a72-459a-b162-d526874dbf1e" name="Changes" comment="df">
-      <change afterPath="$PROJECT_DIR$/aice/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aice/chapter1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aice/chapter2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aice/chapter2/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aice/chapter2/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aice/chapter2/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aice/chapter2/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/exercise/prompting1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/exercise/prompting1/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/exercise/prompting2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/exercise/prompting2/img_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_21.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture/summary/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/summary/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,23 +49,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/sideProject/AI/aice"
+    "last_opened_file_path": "D:/sideProject/AI/Lecture/summary/exercise"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sideProject\AI\Lecture\summary\exercise" />
       <recent name="D:\sideProject\AI\aice" />
       <recent name="D:\sideProject\AI\aice\chapter1" />
       <recent name="D:\sideProject\AI\Lecture\aice" />
       <recent name="D:\sideProject\AI\Lecture" />
-      <recent name="D:\sideProject\AI\Lecture\chapter2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sideProject\AI\Lecture\summary\exercise\prompting1" />
       <recent name="D:\sideProject\AI" />
       <recent name="D:\sideProject\AI\Lecture\chapter4" />
       <recent name="D:\sideProject\AI\Math" />
       <recent name="D:\sideProject\AI\python&amp;Library" />
-      <recent name="D:\sideProject\AI\MachineLearning" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -213,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746951381402</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="df">
+      <option name="closed" value="true" />
+      <created>1748147862092</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1748147862092</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

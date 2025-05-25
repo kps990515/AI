@@ -44,7 +44,7 @@
 ![img_13.png](img_13.png)
 
 ## Transformer
-- Transformer는 RNN 없이 순수하게 어텐션(attention) 연산만으로 입력된 토큰들의 순서 정보를 반영해 문장 표현을 뽑아내는 모델 구조
+- 문장 내 모든 단어 간의 관계를 ‘어텐션’ 메커니즘으로 동시 비교하여, 병렬 처리가 가능하면서도 긴 문맥을 효과적으로 학습하는 구조
 - 병렬연산 가능
 ![img_14.png](img_14.png)
 ![img_15.png](img_15.png)
@@ -52,3 +52,36 @@
 ![img_16.png](img_16.png)
 ![img_17.png](img_17.png)
 ![img_19.png](img_19.png)
+
+## HuggingFace
+- Transformer 구현체 : Text분류, Sequence-to-sequence, Pre-training
+- Dataset 및 pre-trained 모델들을 위한 hub
+- Trainer
+
+## Prompting
+- Chain-of-thoughts (CoT) : 주어진 문제를 풀이와 함께 풀도록 하는 prompting 방법
+![img_18.png](img_18.png)
+- Program-aided language model (PAL) : 수학적 연산을 코드로 풀어서 해결
+![img_20.png](img_20.png)
+- Retrieval-augmented generation (RAG) : LLM이 인터넷 검색을 통해 자료들을 더 찾아본 뒤 답변을 작성
+- [GPT로 prompting 기법들 체험하기](https://github.com/kps990515/AI/tree/main/Lecture/summary/exercise/prompting1)
+- [수능 국어 문제 GPT-4로 풀어보기](https://github.com/kps990515/AI/tree/main/Lecture/summary/exercise/prompting2)
+
+
+## Tuning
+- Supervised Fine-tuning (SFT) 
+  - 질문과 답변의 쌍으로 이루어진 data를 사용 : 질문까지 답변에 포함시켜버림
+  - 나와야 하는 답변에 대해서만 학습을 진행
+  - Self-Instruct : 사람이 Instruction 생성 > LLM으로 Instruction, tuning data생성 > 반복
+  - GSM-Plus : 숫자를 바꾸거나 문제의 용어들을 바꾸어, 같은 문제에 대해 다양한 variation을 생성
+  - UltraChat : 두 개의 LLM끼리 대화하게끔 만들어, 이 대화 내역을 instruction-tuning data로 활용
+
+## Multi-modal Large Language Model (MLLM)
+- 여러 가지 형태(modal)의 입력을 받는다고 해서 MLLM
+
+## RAG
+- 인터넷 자료와 같은 외부 data source를 활용하도록 하는 기술
+  - 사용자의 질문 입력
+  - Knowledge source로 부터 유사한 자료 추출
+  - 추출한 자료들과 사용자 질문으로 prompt 구성
+  - Prompt에 대한 LLM의 답변 반환
