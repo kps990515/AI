@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="419e1788-7a72-459a-b162-d526874dbf1e" name="Changes" comment="df">
-      <change afterPath="$PROJECT_DIR$/Lecture/summary/exercise/prompting1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/summary/exercise/prompting1/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/summary/exercise/prompting2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/summary/exercise/prompting2/img_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture/summary/img_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aice/chapter3/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture/summary/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture/summary/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aice/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/aice/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +56,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/sideProject/AI/Lecture/summary/exercise"
+    "last_opened_file_path": "D:/sideProject/AI/aice"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\sideProject\AI\Lecture\summary\exercise" />
       <recent name="D:\sideProject\AI\aice" />
+      <recent name="D:\sideProject\AI\Lecture\summary\exercise" />
       <recent name="D:\sideProject\AI\aice\chapter1" />
       <recent name="D:\sideProject\AI\Lecture\aice" />
       <recent name="D:\sideProject\AI\Lecture" />
@@ -221,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748147862092</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="df">
+      <option name="closed" value="true" />
+      <created>1748186756638</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1748186756638</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
