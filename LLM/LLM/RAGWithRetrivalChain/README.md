@@ -25,6 +25,104 @@ RetrievalQA는 현재 deprecated 방향입니다.
 
 ------------------------------------------------------------------------
 
+``` python
+# ============================================
+# LangChain + Chroma RAG (Upstage Embeddings)
+# RetrievalQA  ->  create_retrieval_chain 버전
+# ============================================
+
+# 1) 패키지 설치 (노트북이라면)
+# %pip install python-dotenv langchain langchain-upstage langchain-community langchain-text-splitters docx2txt langchain-chroma
+
+# 2) Knowledge Base 구성 (Loader + Splitter)
+from langchain_community.document_loaders import Docx2txtLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=1500,
+    chunk_overlap=200,
+)
+
+loader = Docx2txtLoader("./tax.docx")
+document_list = loader.load_and_split(text_splitter=text_splitter)
+
+# 3) Embedding (Upstage)
+from dotenv import load_dotenv
+from langchain_upstage import UpstageEmbeddings
+
+load_dotenv()
+
+embedding = UpstageEmbeddings(model="solar-embedding-1-large")
+
+# 4) Vector DB (Chroma)
+from langchain_chroma import Chroma
+
+# 처음 저장할 때
+database = Chroma.from_documents(
+    documents=document_list,
+    embedding=embedding,
+    collection_name="chroma-tax",
+    persist_directory="./chroma",
+)
+
+# 이미 저장된 DB를 사용할 때 (필요 시 위 from_documents 대신 이걸 사용)
+# database = Chroma(
+#     collection_name="chroma-tax",
+#     persist_directory="./chroma",
+#     embedding_function=embedding,
+# )
+
+# 5) Retriever 구성 (+ k 조절)
+query = "연봉 5천만원인 직장인의 소득세는 얼마인가요?"
+
+retriever = database.as_retriever(search_kwargs={"k": 3})
+
+# (디버깅) 실제 어떤 문서를 가져오는지 확인
+# retrieved_docs = retriever.invoke(query)
+# print(retrieved_docs)
+
+# 6) Prompt + LLM (Upstage Chat)
+from langchain_upstage import ChatUpstage
+from langchain import hub
+
+llm = ChatUpstage()
+
+# RAG prompt를 그대로 쓰고 싶다면 유지
+rag_prompt = hub.pull("rlm/rag-prompt")
+
+# 7) create_retrieval_chain 구성
+# - create_retrieval_chain은 "retriever" + "combine_docs_chain"을 합쳐서 하나의 chain으로 만듭니다.
+# - combine_docs_chain은 "retrieved docs를 prompt에 넣고 LLM을 호출"하는 역할입니다.
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain.chains import create_retrieval_chain
+
+combine_docs_chain = create_stuff_documents_chain(
+    llm=llm,
+    prompt=rag_prompt
+)
+
+retrieval_chain = create_retrieval_chain(
+    retriever=retriever,
+    combine_docs_chain=combine_docs_chain
+)
+
+# 8) 실행
+# create_retrieval_chain은 입력 키로 보통 {"input": "..."} 를 사용합니다.
+result = retrieval_chain.invoke({"input": query})
+print(result)
+
+# result 예시(형태):
+# {
+#   "input": "...",
+#   "context": [Document(...), ...],
+#   "answer": "..."
+# }
+# ※ answer 키 이름은 체인/버전에 따라 "answer" 또는 "result"로 보일 수 있습니다.
+
+```
+------------------------------------------------------------------------
+
+
 # 기존 구조 (RetrievalQA)
 
 ``` python
